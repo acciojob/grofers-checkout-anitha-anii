@@ -13,7 +13,7 @@ for (let i = 0; i < prices.length; i++) {
 
 const newRow = document.createElement('tr');
 const totalCell = document.createElement('td');
-	
+	totalCell.id="ans";
 totalCell.setAttribute('colspan', '2');
 totalCell.innerText = 'Total Price: ' + totalPrice.toFixed(2); // Format the total price with 2 decimal places
 
